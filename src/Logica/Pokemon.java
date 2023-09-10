@@ -1,4 +1,4 @@
-package ejercicioIntegradorPokemon;
+package Logica;
 
 public abstract class  Pokemon {
     protected int num_pokedex;
@@ -12,9 +12,14 @@ public abstract class  Pokemon {
 
     protected  String tipo;
 
+    public Pokemon() {
+
+    }
 
 
     protected abstract void atacarPlacaje();
+    protected abstract void atacarAraniazo();
+    protected abstract void atacarMordisco();
 
     public int getNum_pokedex() {
         return num_pokedex;
